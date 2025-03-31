@@ -9,4 +9,4 @@ if ! test -f /init; then
 else
     echo "init.sh already run"
 fi
-while true; do sleep 43200; certbot.sh; done;
+while true; do sleep 43200; /certbot.sh; done;
